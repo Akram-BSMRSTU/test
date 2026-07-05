@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-05T13:15:32 BDT" name="Banking-System PW Suite" finished-at="2026-07-05T13:15:58 BDT" duration-ms="26235">
+    <groups>
+    </groups>
+    <test started-at="2026-07-05T13:15:32 BDT" name="Banking-System Home Page Test_chrome" finished-at="2026-07-05T13:15:58 BDT" duration-ms="26235">
+      <class name="tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest@2794eab6]" started-at="2026-07-05T13:15:32 BDT" name="setUp" finished-at="2026-07-05T13:15:42 BDT" duration-ms="10133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserCanPlaceOrder()[pri:0, instance:tests.CheckoutTest@2794eab6]" started-at="2026-07-05T13:15:42 BDT" name="verifyUserCanPlaceOrder" finished-at="2026-07-05T13:15:50 BDT" duration-ms="7931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanPlaceOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@2794eab6]" started-at="2026-07-05T13:15:50 BDT" name="tearDown" finished-at="2026-07-05T13:15:50 BDT" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckoutTest -->
+      <class name="tests.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LogoutTest@117159c0]" started-at="2026-07-05T13:15:50 BDT" name="setUp" finished-at="2026-07-05T13:15:54 BDT" duration-ms="4219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserCanLogout()[pri:0, instance:tests.LogoutTest@117159c0]" started-at="2026-07-05T13:15:54 BDT" name="verifyUserCanLogout" finished-at="2026-07-05T13:15:58 BDT" duration-ms="3404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogoutTest@117159c0]" started-at="2026-07-05T13:15:58 BDT" name="tearDown" finished-at="2026-07-05T13:15:58 BDT" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LogoutTest -->
+    </test> <!-- Banking-System Home Page Test_chrome -->
+  </suite> <!-- Banking-System PW Suite -->
+</testng-results>
